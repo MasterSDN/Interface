@@ -1,0 +1,46 @@
+body{
+background-color: #000014;
+}
+
+.contyner{
+    background-color: #280305;
+    display: flex;
+    border-radius: 12px;
+
+  }
+
+.itme{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+
+.itme input{
+    background-color: #04040cf7;
+    color: white;
+    outline: none;
+    border-radius: 8px;
+    flex-grow: 1;
+    padding: 8px;
+    margin: 3px; 
+}
+
+.itme input:focus{
+background-color: #202027fd;
+}
+
+.itme button{
+background-color: #284242;
+border:none;
+border-radius: 8px;
+flex-basis: 70px;
+padding: 5px;
+margin: 3px;
+flex-grow: 1;
+cursor: pointer;
+}
+
+.itme button:hover{
+    background-color: aqua;
+}
